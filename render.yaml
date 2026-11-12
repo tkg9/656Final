@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: daunting-horizon-staging
+    runtime: python
+    plan: free
+    buildCommand: ./build.sh
+    startCommand: gunicorn config.wsgi
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.5
+      - key: DEBUG
+        value: "0"
+      - key: ALLOWED_HOSTS
+        value: daunting-horizon-staging.onrender.com
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false

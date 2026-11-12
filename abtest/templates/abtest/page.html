@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ team }}</title>
+</head>
+<body>
+  <h1>Team {{ team }}</h1>
+  <ul>
+    {% for member in members %}<li>{{ member }}</li>{% endfor %}
+  </ul>
+  <form method="post" action="{% url 'abtest-click' %}">
+    {% csrf_token %}
+    <button id="abtest" type="submit">{{ variant }}</button>
+  </form>
+</body>
+</html>
