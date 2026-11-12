@@ -132,6 +132,7 @@ if not DEBUG:
 TEAM_NICKNAME = 'daunting-horizon'
 TEAM_MEMBERS = [
     'quaint-chinchilla',
+    'elated-bison',
 ]
 
 # Default primary key field type
