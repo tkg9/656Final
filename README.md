@@ -25,7 +25,7 @@ Without `DATABASE_URL` the app uses a local SQLite file; staging uses Postgres.
 python manage.py test
 ```
 
-CI on pull requests is planned.
+Tests also run on every pull request (GitHub Actions).
 
 ## Workflow
 
