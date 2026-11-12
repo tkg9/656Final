@@ -1,0 +1,13 @@
+framework: django
+database: postgres
+members:
+  - nickname: quaint-chinchilla
+    github: tkg9
+  - nickname: TODO
+    github: Lasya1106
+  - nickname: TODO
+    github: Abercrombie35
+  - nickname: TODO
+    github: msomoyeeta
+  - nickname: TODO
+    github: Baggs99
