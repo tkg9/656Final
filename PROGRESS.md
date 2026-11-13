@@ -24,5 +24,4 @@ Decision, reason, date.
 
 ## Blocked / questions
 
-- Course nicknames for four members (needed in team.yaml and the A/B page)
 - First user stories (team discussion in progress)

@@ -133,6 +133,9 @@ TEAM_NICKNAME = 'daunting-horizon'
 TEAM_MEMBERS = [
     'quaint-chinchilla',
     'elated-bison',
+    'charming-ostrich',
+    'lucky-badger',
+    'talented-moose',
 ]
 
 # Default primary key field type
